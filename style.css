@@ -1,0 +1,224 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+   
+}
+
+header{
+     background-color:white; 
+    height: 12%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    top: 0;
+    bottom: 0;
+    padding: 20px 50px;
+}
+nav{
+    padding-right: 10px;
+}
+.logo{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: black;
+    padding: 10px;
+}
+nav a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+
+}
+nav a:hover{
+    color: orange;
+    
+  
+}
+.project{
+    background: blue;
+    padding: 10px;
+
+}
+.project:hover{
+    background-color: skyblue;
+    color: black;
+}
+
+.mainpage{
+    background-color: blue;
+    height: 88%;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    
+    flex-basis: 50%;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+   
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.log{
+    width: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+nav a:hover{
+    color: chartreuse;
+
+}
+.project{
+    background-color: blue;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+.rs{
+    width: 90%;
+    height: 100%;
+    padding-right: 10px;
+}
+.txt {
+   margin-left: 50px;
+   margin-top: 50px;
+   text-align: center;
+   color: white;
+}
+.txth1,h3,h4{
+    margin-top: 30px;
+    padding: 30px;
+}
+.mainco{
+    padding-left: 25px;
+    font-size: 30px;
+   
+}
+button{
+  
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+.discuss{
+    background-color: darkmagenta;
+    margin-right: 10px;
+
+}
+.contactus{
+    background-color: lightblue;
+}
+.page2{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.heads{
+  
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+   
+    
+}
+.cards{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+
+}
+.c1{
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid black;
+}
+.cdimg{
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    padding: 30px;
+   
+    justify-content: center;
+}
+.ctitle{
+    padding: 50px;
+}
+.des{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+.row1{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    color: white;
+    background-color: blue;
+}
+.col1{
+    flex-basis: 50%;
+}
+.txt1{
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+ }
+ .txth1,h3{
+    margin-top: 30px;
+    padding: 30px;
+}
+.dis{
+    margin-top: 50px;
+}
